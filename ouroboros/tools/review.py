@@ -21,7 +21,7 @@ MAX_MODELS = 10
 # Concurrency limit for parallel requests
 CONCURRENCY_LIMIT = 5
 
-CLOUDRU_URL = "https://foundation-models.api.cloud.ru/v1/chat/completions"
+CLOUDRU_URL = "https://routerai.ru/api/v1"
 
 
 def get_tools():

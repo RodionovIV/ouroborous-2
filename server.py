@@ -780,7 +780,7 @@ async def api_models(request: Request) -> JSONResponse:
         return JSONResponse({"models": _models_cache["models"]})
 
     api_key = os.environ.get("API_KEY", "")
-    base_url = os.environ.get("OPENAI_BASE_URL", "https://foundation-models.api.cloud.ru/v1")
+    base_url = os.environ.get("OPENAI_BASE_URL", "https://routerai.ru/api/v1")
 
     hardcoded = [
         "zai-org/GLM-4.7",

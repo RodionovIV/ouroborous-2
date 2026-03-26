@@ -52,7 +52,7 @@ class LLMClient:
     def __init__(
         self,
         api_key: Optional[str] = None,
-        base_url: str = "https://foundation-models.api.cloud.ru/v1",
+        base_url: str = "https://routerai.ru/api/v1",
     ):
         # Cloud.ru Foundation Models — OpenAI-compatible API.
         # API key is a "Key Secret" string stored in API_KEY.
